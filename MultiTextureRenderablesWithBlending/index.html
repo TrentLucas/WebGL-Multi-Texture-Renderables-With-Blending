@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trent Lucas - MP4: Multi-Texture Support</title>
+        <link rel ="icon" type ="image/x-icon" href="./assets/minionicon.png">
+
+        <!-- the following says there are javascript source code contained in 
+             the external source files
+        -->
+        <!-- external library -->
+        <script type="text/javascript" src="src/lib/gl-matrix.js"></script>
+
+        <!-- our game -->
+        <script type="module" src="./src/my_game/my_game.js"></script>
+    </head>
+
+    <body>
+        <canvas id="GLCanvas" width="1000" height="800">
+            <!-- GLCanvas is the area we will draw in: a 640x480 area. -->
+            Your browser does not support the HTML5 canvas.
+            <!-- this message will show only if WebGL clearing failed -->
+        </canvas>
+
+        <div style="display: table" >
+            <div style="float: left; padding-left: 10px">
+                <b>Z</b>, <b>X</b>, <b>C</b>: to select object <br>
+                <br>
+                <b>Key 0</b>: to bind control to object
+                <ul>
+                    <li>
+                        <b>Arrows</b>: Move the object </li>
+                    <li>
+                        <b>Shift+Arrows</b>: Change the size of object </li>
+                    <li>
+                        <b>Control+Left/Right-Arrow</b>: Rotate the object </li>
+                </ul>
+            </div> <!-- Left side -->
+            
+            <div style="float: right">
+                <br><br>
+                <b>Key 1/2:</b> to bind controls to effect textures
+                <ul>
+                    <li>
+                        <b>Arrows</b>: Move the selected effect texture </li>  
+                    <li>
+                        <b>Shift+Arrow</b>: Change the size of the effect texture </li>
+                    <li>
+                        <b>Control+Left/Right-Arrow</b>: Rotate the effect texture  </li>
+                    <li>
+                        <b>Keys: 3/4/5/6</b>: Changes effect texture mode: Hide, Transparent, Override, Blend </li>
+                    <li>
+                        <b>Keys: N/M</b>: Increase/Decrease the blend weight </li>
+                </ul>
+            </div>  <!-- right -->
+        </div>    
+    </body>
+</html>
