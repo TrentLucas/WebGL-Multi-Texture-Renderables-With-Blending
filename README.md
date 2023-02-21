@@ -1,5 +1,5 @@
 # WebGL-Multi-Texture-Renderables-With-Blending
-Controls are displayed in the application. The program layers multiple textures into one object and each texture can be independently controlled by the user.
+Controls are displayed in the application. The program layers multiple textures into one object and each texture can be independently controlled by the user. Each texture and multi-texture object can be manipulated independently. This program also supports blending for the effect textures of the multi-texture objects. The controls are shown below.
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODA0MjdjOTJkODZkM2FmZWZmZjEwZjgzNmRiZjU5ZWJmMTMxYmQ3NSZjdD1n/ZR0Rqpctki0riju4Fm/giphy.gif)
 
